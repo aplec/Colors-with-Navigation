@@ -15,6 +15,8 @@
 		5AD64AAF23467C26003ACFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD64AAD23467C26003ACFD5 /* LaunchScreen.storyboard */; };
 		5AD64ABA23467C26003ACFD5 /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD64AB923467C26003ACFD5 /* ColorsUITests.swift */; };
 		5AD64AC523468814003ACFD5 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD64AC423468814003ACFD5 /* ColorsViewController.swift */; };
+		5AFF10592362CD8F00D5601A /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF10582362CD8F00D5601A /* ColorDetailViewController.swift */; };
+		5AFF105D2362CFF100D5601A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF105C2362CFF100D5601A /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5AD64A9C23467C25003ACFD5 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD64A9C23467C25003ACFD5 /* Colors with Navigation with Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colors with Navigation with Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD64A9F23467C25003ACFD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AD64AA123467C25003ACFD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5AD64AA623467C25003ACFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,10 +38,12 @@
 		5AD64AAB23467C26003ACFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AD64AAE23467C26003ACFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AD64AB023467C26003ACFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AD64AB523467C26003ACFD5 /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD64AB523467C26003ACFD5 /* Colors with NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colors with NavigationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD64AB923467C26003ACFD5 /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		5AD64ABB23467C26003ACFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AD64AC423468814003ACFD5 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		5AFF10582362CD8F00D5601A /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
+		5AFF105C2362CFF100D5601A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +76,8 @@
 		5AD64A9D23467C25003ACFD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AD64A9C23467C25003ACFD5 /* Colors.app */,
-				5AD64AB523467C26003ACFD5 /* ColorsUITests.xctest */,
+				5AD64A9C23467C25003ACFD5 /* Colors with Navigation with Navigation.app */,
+				5AD64AB523467C26003ACFD5 /* Colors with NavigationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +93,8 @@
 				5AD64AAD23467C26003ACFD5 /* LaunchScreen.storyboard */,
 				5AD64AB023467C26003ACFD5 /* Info.plist */,
 				5AD64AA823467C25003ACFD5 /* Colors.xcdatamodeld */,
+				5AFF10582362CD8F00D5601A /* ColorDetailViewController.swift */,
+				5AFF105C2362CFF100D5601A /* Color.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -105,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AD64A9B23467C25003ACFD5 /* Colors */ = {
+		5AD64A9B23467C25003ACFD5 /* Colors with Navigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AD64ABE23467C26003ACFD5 /* Build configuration list for PBXNativeTarget "Colors" */;
+			buildConfigurationList = 5AD64ABE23467C26003ACFD5 /* Build configuration list for PBXNativeTarget "Colors with Navigation" */;
 			buildPhases = (
 				5AD64A9823467C25003ACFD5 /* Sources */,
 				5AD64A9923467C25003ACFD5 /* Frameworks */,
@@ -117,14 +123,14 @@
 			);
 			dependencies = (
 			);
-			name = Colors;
+			name = "Colors with Navigation";
 			productName = Colors;
-			productReference = 5AD64A9C23467C25003ACFD5 /* Colors.app */;
+			productReference = 5AD64A9C23467C25003ACFD5 /* Colors with Navigation with Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5AD64AB423467C26003ACFD5 /* ColorsUITests */ = {
+		5AD64AB423467C26003ACFD5 /* Colors with NavigationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AD64AC123467C26003ACFD5 /* Build configuration list for PBXNativeTarget "ColorsUITests" */;
+			buildConfigurationList = 5AD64AC123467C26003ACFD5 /* Build configuration list for PBXNativeTarget "Colors with NavigationUITests" */;
 			buildPhases = (
 				5AD64AB123467C26003ACFD5 /* Sources */,
 				5AD64AB223467C26003ACFD5 /* Frameworks */,
@@ -135,9 +141,9 @@
 			dependencies = (
 				5AD64AB723467C26003ACFD5 /* PBXTargetDependency */,
 			);
-			name = ColorsUITests;
+			name = "Colors with NavigationUITests";
 			productName = ColorsUITests;
-			productReference = 5AD64AB523467C26003ACFD5 /* ColorsUITests.xctest */;
+			productReference = 5AD64AB523467C26003ACFD5 /* Colors with NavigationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5AD64A9723467C25003ACFD5 /* Build configuration list for PBXProject "Colors" */;
+			buildConfigurationList = 5AD64A9723467C25003ACFD5 /* Build configuration list for PBXProject "Colors with Navigation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,8 +178,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AD64A9B23467C25003ACFD5 /* Colors */,
-				5AD64AB423467C26003ACFD5 /* ColorsUITests */,
+				5AD64A9B23467C25003ACFD5 /* Colors with Navigation */,
+				5AD64AB423467C26003ACFD5 /* Colors with NavigationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -206,7 +212,9 @@
 				5AD64AAA23467C25003ACFD5 /* Colors.xcdatamodeld in Sources */,
 				5AD64AA023467C25003ACFD5 /* AppDelegate.swift in Sources */,
 				5AD64AC523468814003ACFD5 /* ColorsViewController.swift in Sources */,
+				5AFF10592362CD8F00D5601A /* ColorDetailViewController.swift in Sources */,
 				5AD64AA223467C25003ACFD5 /* SceneDelegate.swift in Sources */,
+				5AFF105D2362CFF100D5601A /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +231,7 @@
 /* Begin PBXTargetDependency section */
 		5AD64AB723467C26003ACFD5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5AD64A9B23467C25003ACFD5 /* Colors */;
+			target = 5AD64A9B23467C25003ACFD5 /* Colors with Navigation */;
 			targetProxy = 5AD64AB623467C26003ACFD5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -374,7 +382,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.Colors;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Colors with Navigation with Navigation";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.Colors;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Colors with Navigation with Navigation";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,7 +449,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AD64A9723467C25003ACFD5 /* Build configuration list for PBXProject "Colors" */ = {
+		5AD64A9723467C25003ACFD5 /* Build configuration list for PBXProject "Colors with Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AD64ABC23467C26003ACFD5 /* Debug */,
@@ -450,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AD64ABE23467C26003ACFD5 /* Build configuration list for PBXNativeTarget "Colors" */ = {
+		5AD64ABE23467C26003ACFD5 /* Build configuration list for PBXNativeTarget "Colors with Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AD64ABF23467C26003ACFD5 /* Debug */,
@@ -459,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AD64AC123467C26003ACFD5 /* Build configuration list for PBXNativeTarget "ColorsUITests" */ = {
+		5AD64AC123467C26003ACFD5 /* Build configuration list for PBXNativeTarget "Colors with NavigationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AD64AC223467C26003ACFD5 /* Debug */,
